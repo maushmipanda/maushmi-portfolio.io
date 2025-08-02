@@ -1,0 +1,75 @@
+.banner img {
+  width: 100%;
+}
+
+.navbar .nav-link {
+  color: #000;
+  margin-top: 20px;
+  margin: 0 15px;
+  margin-bottom: 0px;
+  padding: 8px 16px;
+  border: 2px solid transparent; /* Always 2px, just invisible initially */
+  border-radius: 10px;
+  transition: color 0.3s ease, border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.navbar .nav-link.active {
+  color: orange !important;
+  border-color: orange;
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.navbar .nav-link:hover {
+  color: orange;
+  border-color: orange;
+  background-color: transparent;
+}
+.about-banner img {
+  width: 100%;
+}
+.about-text p {
+  line-height: 2.5rem;
+}
+.mt-3 {
+  margin-top: 6rem !important;
+}
+.logo-design img {
+  width: 100%;
+}
+.gallery-img {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+.carousel-item img {
+  max-width: 100%; /* smaller image width */
+  margin: 0 auto; /* center image horizontally */
+}
+.line_height {
+  line-height: 2.5rem;
+}
+#backToTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
+}
+
+#backToTopBtn:hover {
+  background-color: darkorange;
+}
