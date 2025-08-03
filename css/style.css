@@ -73,3 +73,13 @@
 #backToTopBtn:hover {
   background-color: darkorange;
 }
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .mt-3 {
+    margin-top: 0 !important;
+  }
+}
+img,
+svg {
+  width: 100%;
+  vertical-align: middle;
+}
